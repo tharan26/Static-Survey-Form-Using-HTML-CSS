@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <h1>ACQUIOS</h1>
+        <div class="name">
+        <label for="fname">First Name*</label>
+        <input type="text" id="fname" required>
+        <label for="lname" class="lname">Last Name*</label>
+        <input type="text" id="lname" required>
+        </div>
+        <label for="email">Email Address*</label>
+        <input type="email" id="email" required>
+        <p>How was your overall experience?*</p>
+        <div class="star">
+            <input type="radio"><label for="star5">★</label>
+            <input type="radio"><label for="star4">★</label>
+            <input type="radio"><label for="star3">★</label>
+            <input type="radio"><label for="star2">★</label>
+            <input type="radio"><label for="star1">★</label>
+        </div>
+        <p>Was our representative (check all that apply)?</p>
+        <div class="checkbox-grid">
+            <label>
+                <input type="checkbox"> Professional and courteous?
+            </label>
+            <label>
+                <input type="checkbox"> Patient?
+            </label>
+            <label>
+                <input type="checkbox"> Knowledgeable?
+            </label>
+            <label>
+                <input type="checkbox"> Warm and respectful?
+            </label>
+            <label>
+                <input type="checkbox"> Friendly?
+            </label>
+            <label>
+                <input type="checkbox"> Clear and direct?
+            </label>
+            <label>
+                <input type="checkbox"> Efficient?
+            </label>
+        </div>
+        <button type="submit">Submit Feedback</button>
+    </form>
+</body>
+</html>
